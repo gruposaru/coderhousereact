@@ -1,0 +1,64 @@
+*{
+   margin: 0;
+   padding: 0; 
+   box-sizing: border-box;
+   
+}
+.carditem{
+    border:1px solid red;
+    height: 480px;
+    width: 320px;
+    padding: 10px;
+    margin: 20px;
+}
+
+   .cardImg{
+    height: 50%;
+    display:flex;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+
+}
+
+
+.cardDescription{
+    display: flex;
+    flex-direction: column;
+    border:1px solid blue;
+
+}
+.cardDescription .title{
+    font-size: 21px;
+
+}
+
+.cant{
+    color: #5b00fb;
+    font-size: 36px;
+    font-weight: bold;
+    margin:6px 0;
+    
+}
+.buttons{
+    border:1px solid black;
+    height: 15%;
+    display:flex;
+    align-items: center;
+}
+
+.detalles{
+    height: 30%;
+    width: 90%;
+    border-radius: 2px;
+    background-color:#5b00fb;
+    color:white;
+    border: none;
+}
+ .addcart{
+    background-color: #5b00fb;
+    height: 46px;
+    width: 46px;
+    border-radius: 50%;
+    border:none;
+ }
